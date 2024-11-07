@@ -1,0 +1,141 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DemoSDK",
+    "printedName": "DemoSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DemoSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DemoSDK",
+        "printedName": "DemoSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7DemoSDKAAV9configure6apiKeyySS_tFZ",
+            "mangledName": "$s7DemoSDKAAV9configure6apiKeyySS_tFZ",
+            "moduleName": "DemoSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "doSomething",
+            "printedName": "doSomething()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7DemoSDKAAV11doSomethingyyFZ",
+            "mangledName": "$s7DemoSDKAAV11doSomethingyyFZ",
+            "moduleName": "DemoSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "greetUser",
+            "printedName": "greetUser(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7DemoSDKAAV9greetUser4nameS2S_tF",
+            "mangledName": "$s7DemoSDKAAV9greetUser4nameS2S_tF",
+            "moduleName": "DemoSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7DemoSDKAAV",
+        "mangledName": "$s7DemoSDKAAV",
+        "moduleName": "DemoSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hakanor\/iosDevelopment\/DemoSDK\/DemoSDK\/DemoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 165,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hakanor\/iosDevelopment\/DemoSDK\/DemoSDK\/DemoSDK.swift",
+      "kind": "Array",
+      "offset": 209,
+      "length": 12,
+      "value": "[\"demo-key\"]"
+    }
+  ]
+}
