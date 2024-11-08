@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DemoSDK-Swift.h</key>
 		<data>
-		Er7RfYFiTLTi4oxx6r5Nhq8bAbM=
+		gT2cd5ZnPY3LpbY2ERGbx3uPmb4=
 		</data>
 		<key>Headers/DemoSDK.h</key>
 		<data>
@@ -14,32 +14,50 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IpkxxFQHRuItj6fzDS7RQkw5tTY=
+		JyX+nHogd3Lay4iiTJ1tW4hYa1I=
 		</data>
 		<key>Modules/DemoSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		glYwznHHwD2MOlVeiqb5LRoQK8s=
+		nghdzIA/SI9zUcMPi5qWXpVaWjw=
 		</data>
 		<key>Modules/DemoSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		QRyA+EaLOsoNT7zlueN0AteCzMM=
+		23IXzrPbhpc+E4rOTrs5P2JrPmo=
 		</data>
 		<key>Modules/DemoSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		w2HYa9I/CUEEsIYCo7piPKfyl+0=
+		ZVSNxB7wL92xJr2ug16en9mYfh8=
 		</data>
 		<key>Modules/DemoSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		QRyA+EaLOsoNT7zlueN0AteCzMM=
+		23IXzrPbhpc+E4rOTrs5P2JrPmo=
 		</data>
 		<key>Modules/DemoSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		CF6VHzDdGrRxC3Td/oS/b64YiDI=
+		8wVx1KKd85tLZpUFTS5ruqrS1eU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		uKssH4+Yu+fQlv2vrYtvF5kx8cM=
 		</data>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RLuefIJIi3NMqQr5FKk4aX68fkQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>tr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			W4/Umfli0cFd5HP7lBHYfnQyF3A=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -47,7 +65,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QoLJYtj/0pQJ358EFJd1eqxHathGSqpmPIjC1Tve/AY=
+			N3xLCm/f/CLWy35mTQIbh+LGWf85+TKouwYUYXxXCAk=
 			</data>
 		</dict>
 		<key>Headers/DemoSDK.h</key>
@@ -61,35 +79,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ccaXWdsbtOwiY5JzMc0zsq8N1p5eEGaX7tSEn83letY=
+			T0Mvlw+67izjRsDc2H6/SvDxh1db+sPRE3DRF3vWxlo=
 			</data>
 		</dict>
 		<key>Modules/DemoSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OjkdS1wl59viImXdQoPxHnQJDlBlmzqAiGJIOcP6Reo=
+			7oQlhf/ttUYxsZleYxVWCpCN55nG85cG1CuOGij04yQ=
 			</data>
 		</dict>
 		<key>Modules/DemoSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X63gueofepItJ8cVGXFDhZxqygLjcTFvwGMFcbX8wiQ=
+			ne44TdeRnJp7uVGwTn5aIrMe5C1KqnkcNXsDSmom854=
 			</data>
 		</dict>
 		<key>Modules/DemoSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OjkdS1wl59viImXdQoPxHnQJDlBlmzqAiGJIOcP6Reo=
+			7oQlhf/ttUYxsZleYxVWCpCN55nG85cG1CuOGij04yQ=
 			</data>
 		</dict>
 		<key>Modules/DemoSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AxW5F8HRTQVdNtWZ0cLO2oGXOmKpoBTYQ+W/5/DYFDI=
+			AXTRCbzeM3CEQz/LPiRrzx93FfawkQVS1QphIzg2Nh8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -98,6 +116,24 @@
 			<data>
 			DgQAN7fTDglhAzb1iVn0Jt3X3vk0FUG2eWuemzIJHvE=
 			</data>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1pA3VXv1oknlU8JlUrLmxIHsZIKlPgP/iX4+VI0FBf0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>tr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			++hFhZEZEsgZ32O6I1GWkVjJ6gmEwtwnW2zjwPaIrNk=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>

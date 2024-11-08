@@ -1,15 +1,25 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios17.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DemoSDK
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DemoSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AVFoundation
 @_exported import DemoSDK
 import Foundation
 import Swift
+import UIKit
+import Vision
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct DemoSDK {
-  public static func configure(apiKey: Swift.String)
-  public static func doSomething()
-  public func greetUser(name: Swift.String) -> Swift.String
+public struct KYCManager {
+  public static func startKYC()
+}
+@_hasMissingDesignatedInitializers public class SDK {
+  public static let shared: DemoSDK.SDK
+  public func configure(apiKey: Swift.String, bundle: Foundation.Bundle = .init(identifier: "com.hakanor.DemoSDK")!)
+  @usableFromInline
+  internal func isConfigured() -> Swift.Bool
+  @usableFromInline
+  internal func getBundle() -> Foundation.Bundle
+  @objc deinit
 }

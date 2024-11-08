@@ -15,41 +15,62 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DemoSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "DemoSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DemoSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DemoSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DemoSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DemoSDK"
+      },
+      {
         "kind": "TypeDecl",
-        "name": "DemoSDK",
-        "printedName": "DemoSDK",
+        "name": "KYCManager",
+        "printedName": "KYCManager",
         "children": [
           {
             "kind": "Function",
-            "name": "configure",
-            "printedName": "configure(apiKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7DemoSDKAAV9configure6apiKeyySS_tFZ",
-            "mangledName": "$s7DemoSDKAAV9configure6apiKeyySS_tFZ",
-            "moduleName": "DemoSDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "doSomething",
-            "printedName": "doSomething()",
+            "name": "startKYC",
+            "printedName": "startKYC()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -58,50 +79,219 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7DemoSDKAAV11doSomethingyyFZ",
-            "mangledName": "$s7DemoSDKAAV11doSomethingyyFZ",
+            "usr": "s:7DemoSDK10KYCManagerV8startKYCyyFZ",
+            "mangledName": "$s7DemoSDK10KYCManagerV8startKYCyyFZ",
             "moduleName": "DemoSDK",
             "static": true,
             "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "greetUser",
-            "printedName": "greetUser(name:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7DemoSDKAAV9greetUser4nameS2S_tF",
-            "mangledName": "$s7DemoSDKAAV9greetUser4nameS2S_tF",
-            "moduleName": "DemoSDK",
-            "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
-        "usr": "s:7DemoSDKAAV",
-        "mangledName": "$s7DemoSDKAAV",
+        "usr": "s:7DemoSDK10KYCManagerV",
+        "mangledName": "$s7DemoSDK10KYCManagerV",
         "moduleName": "DemoSDK",
         "declAttributes": [
           "AccessControl"
         ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DemoSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DemoSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "DemoSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DemoSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDK",
+        "printedName": "SDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDK",
+                "printedName": "DemoSDK.SDK",
+                "usr": "s:7DemoSDK0B0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7DemoSDK0B0C6sharedACvpZ",
+            "mangledName": "$s7DemoSDK0B0C6sharedACvpZ",
+            "moduleName": "DemoSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDK",
+                    "printedName": "DemoSDK.SDK",
+                    "usr": "s:7DemoSDK0B0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7DemoSDK0B0C6sharedACvgZ",
+                "mangledName": "$s7DemoSDK0B0C6sharedACvgZ",
+                "moduleName": "DemoSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7DemoSDK0B0C9configure6apiKey6bundleySS_So8NSBundleCtF",
+            "mangledName": "$s7DemoSDK0B0C9configure6apiKey6bundleySS_So8NSBundleCtF",
+            "moduleName": "DemoSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isConfigured",
+            "printedName": "isConfigured()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7DemoSDK0B0C12isConfiguredSbyF",
+            "mangledName": "$s7DemoSDK0B0C12isConfiguredSbyF",
+            "moduleName": "DemoSDK",
+            "declAttributes": [
+              "AccessControl",
+              "UsableFromInline"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBundle",
+            "printedName": "getBundle()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7DemoSDK0B0C9getBundleSo8NSBundleCyF",
+            "mangledName": "$s7DemoSDK0B0C9getBundleSo8NSBundleCyF",
+            "moduleName": "DemoSDK",
+            "declAttributes": [
+              "AccessControl",
+              "UsableFromInline"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7DemoSDK0B0C",
+        "mangledName": "$s7DemoSDK0B0C",
+        "moduleName": "DemoSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -124,18 +314,39 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/hakanor\/iosDevelopment\/DemoSDK\/DemoSDK\/DemoSDK.swift",
+      "filePath": "\/Users\/hakanor\/iosDevelopment\/DemoSDK\/DemoSDK\/CompletedViewController.swift",
+      "kind": "Array",
+      "offset": 322,
+      "length": 94,
+      "value": "[[0, 0, 1, 0], [1, 1, 1, 0], [0, 0, 0, 0], [0, 0, 0, 0]]"
+    },
+    {
+      "filePath": "\/Users\/hakanor\/iosDevelopment\/DemoSDK\/DemoSDK\/CompletedViewController.swift",
+      "kind": "Array",
+      "offset": 661,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hakanor\/iosDevelopment\/DemoSDK\/DemoSDK\/SDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 165,
+      "offset": 225,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/hakanor\/iosDevelopment\/DemoSDK\/DemoSDK\/DemoSDK.swift",
+      "filePath": "\/Users\/hakanor\/iosDevelopment\/DemoSDK\/DemoSDK\/SDK.swift",
       "kind": "Array",
-      "offset": 209,
-      "length": 12,
-      "value": "[\"demo-key\"]"
+      "offset": 257,
+      "length": 9,
+      "value": "[\"invio\"]"
+    },
+    {
+      "filePath": "\/Users\/hakanor\/iosDevelopment\/DemoSDK\/DemoSDK\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 503,
+      "length": 21,
+      "value": "\"com.hakanor.DemoSDK\""
     }
   ]
 }
